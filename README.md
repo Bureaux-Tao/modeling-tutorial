@@ -4,6 +4,7 @@
 ./
 ├── README.md
 ├── data                                               数据集
+│   ├── Folds5x2_pp.xlsx
 │   ├── PRSA_data_2010.1.1-2014.12.31.csv
 │   ├── ccpp.csv
 │   ├── fisher
@@ -15,6 +16,8 @@
 │   ├── iris.txt
 │   ├── jet_rail.csv
 │   ├── portland-oregon-average-monthly.csv
+│   ├── titanic_train.csv
+│   ├── titantic_test.csv
 │   ├── wine.data
 │   └── 电影票房.csv
 ├── images                                             Jupyter所需图片
@@ -27,15 +30,20 @@
 │   ├── DecisionTree.ipynb                             决策树
 │   ├── DifferenceEquation.ipynb                       差分方程
 │   ├── DifferentialEquation.ipynb                     微分方程
+│   ├── DiscriminantAnalysis.ipynb                     降维
 │   ├── EpidemicModel.ipynb                            传染病模型
 │   ├── GraphTheory.ipynb                              图论
 │   ├── GreyForecasting.ipynb                          灰色预测
+│   ├── K-MeanCluster.ipynb                            K均值聚类
 │   ├── LinearProgramming.ipynb                        线性规划
+│   ├── LinerRegression.ipynb                          线性回归
+│   ├── LogisticRegression.ipynb                       逻辑回归
 │   ├── MonteCarloMethod.ipynb                         蒙特卡洛方法
 │   ├── Networkx.ipynb                                 Networkx库的使用
 │   ├── NumericalApproximation.ipynb                   数值逼近
 │   ├── RandomForest.ipynb                             随机森林
 │   ├── Regression.ipynb                               回归
+│   ├── SupportVectorMachine.ipynb                     支持向量积
 │   └── TimeSequence.ipynb                             时间序列
 ├── requirements.txt                                   需要的python包
 ├── src
